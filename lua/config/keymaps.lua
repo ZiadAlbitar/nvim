@@ -1,0 +1,11 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
+opts = { noremap = true, silent = true }
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+vim.keymap.set('n', '<leader>h', '<C-w>h', opts)
+vim.keymap.set('n', '<leader>l', '<C-w>l', opts)
+vim.keymap.set('n', '<leader>j', '<C-w>j', opts)
+vim.keymap.set('n', '<leader>k', '<C-w>k', opts)
+vim.keymap.set('t', '<esc>', '<C-\\><C-n>', opts)
+vim.keymap.set('n', '<leader>t', ':belowright :term<CR>:resize 15<CR>', opts)

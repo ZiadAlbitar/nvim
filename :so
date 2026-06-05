@@ -16,7 +16,7 @@ vim.keymap.set('t', '<esc>', '<C-\\><C-n>', opts)
 vim.keymap.set('n', '<leader>t', ':belowright :term<CR>:resize 15<CR>', opts)
 
 -- auto pair
--- vim.keymap.set('i', '(', '()<esc>i', opts)
--- vim.keymap.set('i', '{', '{}<esc>i', opts)
--- vim.keymap.set('i', '\"', '\"\"<esc>i', opts)
--- vim.keymap.set('i', '\'', '\'\'<esc>i', opts)
+vim.keymap.set('i', '(', '()<esc>i', opts)
+vim.keymap.set('i', '{', '{}<esc>i', opts)
+vim.keymap.set('i', '(', '\"\"<esc>i', opts)
+vim.keymap.set('i', '(', '\'\'<esc>i', opts)

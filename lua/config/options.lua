@@ -7,3 +7,4 @@ vim.opt.fillchars = {eob = " "}
 vim.diagnostic.config({
   virtual_text = true
 })
+
